@@ -1,5 +1,7 @@
 .main-button {
   width: 300px;
+  height: fit-content;
+  padding: 20px;
   background: rgb(17, 48, 127);
   border: none;
   border-radius: 6px;
