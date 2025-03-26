@@ -116,3 +116,5 @@
         return 'Можно идти';
     }
   }
+
+  console.log(getAction(TRAFFIC_LIGHT.YELLOW))
