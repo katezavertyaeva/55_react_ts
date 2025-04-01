@@ -22,6 +22,8 @@ import Lesson11 from "./lessons/Lesson11/Lesson11"
 
 //Consultations imports
 // import Consultation04 from "./consultations/Consultation04/Consultation04"
+// import Consultation05 from "./consultations/Consultation05/Consultation05"
+
 
 function App() {
 
