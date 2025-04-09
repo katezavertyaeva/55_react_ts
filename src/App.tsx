@@ -9,6 +9,7 @@ import GlobalStyles from "./styles/GlobalStyles"
 import Designer from './pages/Users/components/Designer/Designer'
 import Manager from './pages/Users/components/Manager/Manager'
 import PageNotFound from './pages/PageNotFound/PageNotFound'
+import Consultation06 from './consultations/Consultation06/Consultation06'
 
 //Lessons imports
 // импорт компонента Lesson06 по умолчанию
