@@ -9,7 +9,11 @@ import GlobalStyles from "./styles/GlobalStyles"
 import Designer from './pages/Users/components/Designer/Designer'
 import Manager from './pages/Users/components/Manager/Manager'
 import PageNotFound from './pages/PageNotFound/PageNotFound'
-import Consultation06 from './consultations/Consultation06/Consultation06'
+import Clients from './pages/Clients/Clients'
+import Amazon from './pages/Clients/components/Amazon/Amazon'
+import Facebook from './pages/Clients/components/Facebook/Facebook'
+import Google from './pages/Clients/components/Google/Google'
+import Lesson18 from './lessons/Lesson18/Lesson18'
 
 //Lessons imports
 // импорт компонента Lesson06 по умолчанию
@@ -41,6 +45,8 @@ import Consultation06 from './consultations/Consultation06/Consultation06'
 //Consultations imports
 // import Consultation04 from "./consultations/Consultation04/Consultation04"
 // import Consultation05 from "./consultations/Consultation05/Consultation05"
+// import Consultation06 from './consultations/Consultation06/Consultation06'
+
 
 
 function App() {
@@ -61,6 +67,11 @@ function App() {
           <Route path='/users' element={<Users />} />
           <Route path='/users/designer' element={<Designer />} />
           <Route path='/users/manager' element={<Manager />} />
+          <Route path='/clients' element={<Clients />} />
+          <Route path='/clients/amazon' element={<Amazon />} />
+          <Route path='/clients/facebook' element={<Facebook />} />
+          <Route path='/clients/google' element={<Google />} />
+          <Route path='/lesson18' element={<Lesson18 />} />
           {/* path='*' - специальный маршрут, который вызовет переданный компонент в
           том случае, если в маршрутах выше не будет найдено того маршрута,
           к которому обращается пользователь */}
