@@ -8,3 +8,10 @@ export interface NavLinkObj {
   to: string,
   linkName: string
 }
+
+export interface JokeTextInterface {
+  joke: string | undefined,
+  error: string | undefined,
+  isLoading: boolean,
+  getJoke: () => void
+}
