@@ -62,7 +62,7 @@ function App() {
         <Routes>
           {/* Route - компонент библиотеки, в который передаётся маршрут и тот компонент (страницу),
           который должен быть вызван, если выполнен переход по этому маршруту */}
-          <Route path='/' element={<Home />} />
+          <Route path='/55_react_ts' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/course' element={<Course />} />
           <Route path='/users' element={<Users />} />
