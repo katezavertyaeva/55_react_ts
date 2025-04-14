@@ -108,7 +108,7 @@ Please change the parent <Route path="${q}"> to <Route path="${q==="/"?"*":`${q}
   font-size: 28px;
   font-weight: bold;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-`,jS=[{to:"/",linkName:"Home"},{to:"/about",linkName:"About"},{to:"/course",linkName:"Course"},{to:"/users",linkName:"User"},{to:"/clients",linkName:"Clients"},{to:"/lesson18",linkName:"Lesson 18"},{to:"/homework18",linkName:"Homework 18"}],HS="/55_react_ts/assets/avatar-C2n57wDJ.jpg",BS=$.button`
+`,jS=[{to:"/",linkName:"Home"},{to:"/about",linkName:"About"},{to:"/course",linkName:"Course"},{to:"/users",linkName:"User"},{to:"/clients",linkName:"Clients"},{to:"/lesson18",linkName:"Lesson 18"},{to:"/homework18",linkName:"Homework 18"}],HS="/assets/avatar-C2n57wDJ.jpg",BS=$.button`
   width: 100%;
   height: fit-content;
   padding: 20px;
