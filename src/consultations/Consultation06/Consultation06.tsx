@@ -1,4 +1,6 @@
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
+import { useState } from "react";
+
 import {
   Consultation06Container,
   UserCard,

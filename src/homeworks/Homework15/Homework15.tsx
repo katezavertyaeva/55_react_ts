@@ -31,7 +31,9 @@ function Homework15() {
     } as ValidationFormValues,
     validationSchema,
     validateOnChange: false,
-    onSubmit: (values: ValidationFormValues, formikHelpers) => {
+    // onSubmit: (values: ValidationFormValues, formikHelpers) => {
+      onSubmit: (_, formikHelpers) => {
+
       console.log('Вы успешно вошли');
       formikHelpers.resetForm()
     }

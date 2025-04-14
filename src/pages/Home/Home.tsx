@@ -6,7 +6,7 @@ import Button from "../../components/Button/Button";
 import { useNavigate } from "react-router-dom";
 
 function Home() {
-const {error, isLoading, getJoke} = useContext(JokeContext)
+const { getJoke} = useContext(JokeContext)
 
 const navigate = useNavigate();
 
